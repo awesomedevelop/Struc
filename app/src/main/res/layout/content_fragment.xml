@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/drbenhamu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:text="Le Docteur Franck BENHAMOU propose une prise en charge complète de médecine et chirurgie esthétique."
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="1dp"
+        android:textStyle="italic"
+        android:text="Chirurgien Qualifié Spécialiste en Chirurgie Plastique, Reconstructrice &amp; Esthétique. Diplômé du D.E.S.C. de Chirurgie Plastique, Reconstructrice et Esthétique"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chirurgien Qualifié Spécialiste en Chirurgie Plastique et Reconstructrice &amp; Esthétique,"
+        android:id="@+id/textView19"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Diplômé du D.E.S.C. de Chirurgie Plastique, Reconstructrice et Esthétique,"
+        android:id="@+id/textView20"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ancien Assistant des Hôpitaux"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/textView21"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_toRightOf="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ancien Interne et Assistant des Hôpitaux,"
+        android:id="@+id/textView22"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView10"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post-Assistanat à NEW YORK (Mount Sinai Hospital) et HARVARD BOSTON (Beth Israel Deaconess Medical Center)."
+        android:id="@+id/textView23"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageView9"
+        android:layout_toRightOf="@+id/imageView10"
+        android:layout_toEndOf="@+id/imageView10" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membre de la Société Française de Chirurgie Plastique et Esthétique (SOFCPRE)."
+        android:id="@+id/textView24"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_toRightOf="@+id/imageView11"
+        android:layout_toEndOf="@+id/imageView11" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView12"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membre du Syndicat de Chirurgie Plastique, Reconstructrice et Esthétique (SNCPRE)."
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/textView25"
+        android:layout_alignTop="@+id/imageView12"
+        android:layout_toRightOf="@+id/imageView12"
+        android:layout_toEndOf="@+id/imageView12" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView13"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membre de la Société Française d’Etude et de Traitement des Brûlures (SOFTEB)."
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/textView26"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_toRightOf="@+id/imageView13"
+        android:layout_toEndOf="@+id/imageView13" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView14"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membre de l’American Academy of Cosmetic Surgery (AACS)."
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/textView27"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_toRightOf="@+id/imageView14"
+        android:layout_toEndOf="@+id/imageView14" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView15"
+        android:src="@drawable/checkboxblankcircle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membre du General Medical Council (U.K). N° 6514039."
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/textView28"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_toRightOf="@+id/imageView15"
+        android:layout_toEndOf="@+id/imageView15" />
+<include
+    android:id="@+id/includ_social"
+    layout="@layout/social"
+
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="50dp"
+    android:layout_height="50dp"
+    android:layout_below="@id/textView28"
+    />
+</RelativeLayout>
+    </ScrollView>

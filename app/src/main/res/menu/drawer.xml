@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inbox"
+            android:checked="false"
+            android:icon="@drawable/home"
+            android:title="@string/inbox_string" />
+
+
+
+
+
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@drawable/video"
+            android:title="@string/video_string" />
+
+
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@drawable/multipleimage"
+            android:title="@string/photos_string" />
+        <item
+            android:id="@+id/trash"
+            android:checked="false"
+            android:icon="@drawable/stream"
+            android:title="@string/news_string" />
+        <item
+            android:id="@+id/spam"
+            android:checked="false"
+            android:icon="@drawable/ic_email_black"
+            android:title="@string/contacts_strings" />
+
+    </group>
+</menu>
