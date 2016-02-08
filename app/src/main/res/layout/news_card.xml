@@ -56,8 +56,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true" />
 <ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="36dp"
+    android:layout_height="36dp"
     android:id="@+id/share_button"
     android:src="@drawable/sharevariant"
     android:layout_marginTop="15dp"

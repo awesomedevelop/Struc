@@ -31,6 +31,7 @@
         android:textAlignment="center"
         android:text="Cabinet de chirurgie esthetique paris trocadero"
         android:id="@+id/textView14"
+        android:gravity="center"
         android:layout_gravity="center"
         android:layout_marginTop="3dp"
         android:layout_marginLeft="3dp"
@@ -43,7 +44,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:elevation="5dp"
         android:id="@+id/video1"
+
         android:layout_gravity="center"
         android:src="@drawable/vid1"
 
@@ -75,6 +78,7 @@
                 android:textAlignment="center"
                 android:text="Dr Franck Benhamou «c’est ma vie» M6"
                 android:id="@+id/textView15"
+                android:gravity="center"
                 android:layout_gravity="center"
                 android:layout_marginTop="3dp"
                 android:layout_marginLeft="3dp"
@@ -117,6 +121,7 @@
                 android:textAlignment="center"
                 android:text="Eylau Consultation"
                 android:id="@+id/textView16"
+                android:gravity="center"
                 android:layout_gravity="center"
                 android:layout_marginTop="3dp"
                 android:layout_marginLeft="3dp"
@@ -160,6 +165,7 @@
                 android:text="France guyane 27 avril"
                 android:id="@+id/textView17"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginTop="3dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"

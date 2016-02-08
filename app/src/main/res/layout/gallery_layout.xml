@@ -107,7 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Silhouette"
+        android:text="Poitrine"
         android:textStyle="bold|italic"
         android:id="@+id/gallery_tittle_3"
         android:layout_below="@+id/slider1"

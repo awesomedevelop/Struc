@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -31,9 +32,10 @@ public class News_detail_activity extends AppCompatActivity {
     OkHttpClient client;
     Response response;
     ImageView news_main_back,share_button;
-    TextView news_main_title,news_main_content;
+    TextView news_main_title;
     int id;
     String img,link;
+    WebView wb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,9 +43,9 @@ public class News_detail_activity extends AppCompatActivity {
         setContentView(R.layout.activity_news_detail_activity);
         news_main_back = (ImageView) findViewById(R.id.news_main_back);
         news_main_title = (TextView) findViewById(R.id.news_main_title);
-        news_main_content = (TextView) findViewById(R.id.news_main_content);
-        share_button = (ImageView) findViewById(R.id.share_button);
 
+        share_button = (ImageView) findViewById(R.id.share_button);
+        wb = (WebView) findViewById(R.id.webView);
 
 
         Intent intent = getIntent();
@@ -109,11 +111,12 @@ public class News_detail_activity extends AppCompatActivity {
                 content= c.getString("content");
                 title=c.getString("title");
                // content = content.substring(1056);
-                content = content.replace("<!--"," ");
-                content = content.replace("//-->"," ");
-                content = content.replace("if(wpa2a)wpa2a.script_load();"," ");
-                content = content.replace("//"," ");
-             //   Log.i("CONTENT",c.getString("content"));
+               // content = content.replace("<!--"," ");
+               // content = content.replace("//-->"," ");
+               // content = content.replace("if(wpa2a)wpa2a.script_load();"," ");
+               // content = content.replace("//"," ");
+              //  content = content.replace("%"," ");
+              // Log.i("CONTENT",c.getString("content"));
 
 
 
@@ -131,9 +134,13 @@ public class News_detail_activity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(Void aVoid) {
-            news_main_content.setText(Html.fromHtml(content));
+          //  news_main_content.setText(Html.fromHtml(content));
             news_main_title.setText(title);
-
+          //  wb.getSettings().setJavaScriptEnabled(true);
+           // wb.getSettings().setBlockNetworkImage(true);
+            wb.getSettings().setLoadsImagesAutomatically(true);
+            wb.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+            wb.loadData(content,"text/html; charset=UTF-8", null);
 
 
 
